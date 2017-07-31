@@ -27,14 +27,14 @@ export default new Vuex.Store({
         title: '描述'
       },
       workHistory: [
-        { company: '公司名称', content: `公司总部设在XXXX区，先后在北京、上海成立分公司。专注于移动XXX领域，主打产品XXXXX，它将资讯、报纸、杂志、图片、微信等众多内容，按照用户意愿聚合到一起，实现深度个性化 定制。
+        { company: '公司名称1', content: ` 前端开发
         我的主要工作如下:  
         1.完成既定产品需求。
          2.修复 bug。` },
-        { company: '公司名称', content: '我的第一份工作,什么都做，什么都干' }
+        { company: '公司名称2', content: 'iOS开发' }
       ],
       education: [
-        { school: '华南理工大学', content: '计算机应用技术' },
+        { school: '湖南理工学院', content: '理工科' },
         { school: '毕业学院' }
       ],
       projects: [
@@ -46,9 +46,9 @@ export default new Vuex.Store({
         { name: '获奖信息', content: '年度优秀员工考核奖' }
       ],
       contacts: [
-        { contact: 'phone', content: '13061861800' },
-        { contact: 'qq', content: '373840427' },
-        { contact: 'Email', content: '373840427@qq.com' }
+        { contact: 'phone', content: '13203011943' },
+        { contact: 'qq', content: '1044076780' },
+        { contact: 'Email', content: 'zpy1044076780@gmail.com' }
       ]
     }
   },
